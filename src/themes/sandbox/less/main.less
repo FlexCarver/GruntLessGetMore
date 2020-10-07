@@ -1,0 +1,34 @@
+html{
+  background: transparent url('/img/spray.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.sb-vcenter{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+div.sb-home-card{
+  background-color: fade(#fff, 70%);
+  h3, p{
+    text-align: center;
+
+  }
+  /* added an anmation to test the autoprefixer */
+  animation: homecardmove 2s ease;
+
+}
+
+@keyframes homecardmove
+{
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 42%;
+  }
+}
