@@ -1,6 +1,6 @@
 {
   "site": {
-    "theme": "sandbox",
+    "theme": "flexcarver",
     "cssframework": "uikit"
   },
   "browserslist": [

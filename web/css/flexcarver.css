@@ -1,0 +1,80 @@
+html {
+  background: transparent url('/img/water.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.sb-vcenter {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.sb-home-card {
+  width: 94%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* added an anmation to test the autoprefixer */
+  -webkit-animation: homecardmove 2s ease;
+          animation: homecardmove 2s ease;
+}
+div.sb-home-card h3,
+div.sb-home-card p {
+  text-align: center;
+}
+div.sb-home-card a {
+  color: #56B09E;
+  text-decoration: none;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+a.home-lnk {
+  position: relative;
+  opacity: 0.8;
+  transition: 0.3s all ease;
+}
+a.home-lnk img {
+  position: absolute;
+  transition: 0.3s all ease;
+}
+a.home-lnk:hover {
+  opacity: 1;
+}
+a.home-lnk:hover img {
+  margin-top: -8px;
+}
+a.sb-home-left {
+  float: left;
+  margin-left: 20px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+}
+a.sb-home-right {
+  float: right;
+  margin-right: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  max-width: 90px;
+}
+@-webkit-keyframes homecardmove {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 42%;
+  }
+}
+@keyframes homecardmove {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 42%;
+  }
+}
+@media screen and (max-width: 800px) {
+  div.sb-home-card p {
+    margin-bottom: 40px;
+  }
+}
