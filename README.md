@@ -17,7 +17,7 @@ FlexCarver was built to help students @ the [Fachhochschule Salzburg](https://ww
 - point your [xampp](https://www.apachefriends.org/de/index.html) installation to the project directory (httpd.config - DocumentRoot and the Directory-tag underneath), which is the projectname/web for the root of your site - restart apache
 
 #### Ready to go!
-- the "grunt" command will move and copy all needed files in the web directory
+- The "grunt" command will move and copy all needed files in the web directory
 - Use "grunt" command for development mode
 - Make sure to reload your site once after the first dev build - this will activate the auto-reload script
 - Use "grunt --prod=t" for production mode - upload the  web directory contents into the root of your website
@@ -28,6 +28,9 @@ FlexCarver was built to help students @ the [Fachhochschule Salzburg](https://ww
 - change the theme in the config.json file
 - using [UIkit](https://getuikit.com/docs/introduction) as a css framework - with LESS
 
+### Roadmap
+
+- This little framework will be extended during the winter semester 2020/2021 
 
 ### License - MIT
 
