@@ -1,6 +1,6 @@
 # FlexCarver: Grunt & LESS based basic website builder
 
-<img align="right" height="260" src="https://comfortpages.com/media/logo/thumbnail/FlexCarverLogo_V1.0.svg">
+<img align="right" width="260" src="https://comfortpages.com/media/logo/thumbnail/FlexCarverLogo_V1.0.svg">
 
 ### History
 
