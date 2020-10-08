@@ -1,7 +1,7 @@
 {
   "site": {
     "theme": "flexcarver",
-    "cssframework": "uikit"
+    "cssframework": "normalize"
   },
   "browserslist": [
       "defaults",

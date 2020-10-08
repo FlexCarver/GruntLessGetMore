@@ -26,11 +26,11 @@ FlexCarver was built to help students @ the [Fachhochschule Salzburg](https://ww
 ### Documentation
 
 - change the theme in the config.json file
-- using [UIkit](https://getuikit.com/docs/introduction) as a css framework - with LESS
+- using the [UIkit](https://getuikit.com/docs/introduction) css framework - with LESS
 
 ### Roadmap
 
-- This little framework will be extended during the winter semester 2020/2021 
+- This little framework will be extended during the winter semester 2020/2021
 
 ### License - MIT
 
