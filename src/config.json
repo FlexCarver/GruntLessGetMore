@@ -1,7 +1,8 @@
 {
   "site": {
-    "theme": "flexcarver",
-    "cssframework": "normalize"
+    "html": false,
+    "theme": "futurezone",
+    "cssframework": "fh"
   },
   "browserslist": [
       "defaults",

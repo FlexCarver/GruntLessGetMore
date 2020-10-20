@@ -158,7 +158,7 @@ module.exports = function(grunt) {
             tasks: ['clean:js', 'uglify:dev']
         },
         css: {
-            files: ['themes/<%= siteconfig.theme %>/less/*.less'],
+            files: ['themes/<%= siteconfig.theme %>/less/*.less', 'less/<%= siteconfig.cssframework %>/less/*.less'],
             tasks: ['clean:dev', 'less', 'postcss:dev']
         },
         html: {
