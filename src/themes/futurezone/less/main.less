@@ -1,5 +1,20 @@
+/*
+  Load the variables from the fh css cssframework first -
+  Make sure all variables are available in the custom site less files
+*/
 @import "../../../less/fh/less/variables.less";
+/*
+  Place navigation in a separate file - just to keep things organized
+  We could also make a general style in the cssframework ...
+*/
+@import "navigation.less";
 
+/*
+  Please use a hyphen - for class names - like header-wrap
+  Please use an underline _ for IDs - like #header_wrap
+
+
+*/
 body{
   padding: 16px 0px;
   background-color: #f3f3f3;
@@ -27,7 +42,7 @@ div.header-wrap{
 @media (max-width: @screen-sm) {
   body{
     padding: 8px 0px;
-    
+
   }
   div.header-wrap{
     width: 96%;
