@@ -73,7 +73,7 @@ module.exports = function(grunt) {
         compile: {
           files: {
             '<%= distillDir %><%= cssDir %><%= siteconfig.cssframework %>.css': '<%= lessDirFrameWork %><%= siteconfig.cssframework %>.less',
-            '<%= distillDir %><%= cssDir %><%= siteconfig.theme %>.css': 'themes/<%= siteconfig.theme %>/less/*.less'
+            '<%= distillDir %><%= cssDir %><%= siteconfig.theme %>.css': 'themes/<%= siteconfig.theme %>/less/main.less'
           }
         }
       },
